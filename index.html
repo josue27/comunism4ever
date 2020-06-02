@@ -19,13 +19,17 @@
   <script src="https://cdn.jsdelivr.net/npm/howler@2.1.3/dist/howler.min.js"></script>
     <script type="application/javascript">
       var audio;
+      var rep = false;
       function playAudio(path) {
+        if(rep == false){
+
         audio= new Howl({
           src: ["assets/assets/audio/ussr_anthem.mp3"]
         });
 
         
         audio.play();
+        rep = true;
         audio.once('onplayerror',function(){
           alert('Algo salio mal');
 
@@ -33,10 +37,12 @@
 
 
         alert("reproduciendo:"+autdio.path);
+        }
       }
       function stopAudioWeb()
       {
         audio.stop();
+        rep = false;
         
       }
     </script>
