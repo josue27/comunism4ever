@@ -22801,7 +22801,7 @@ if(r<s){m=l.b[r]
 if(t.$2(a,m)>0){C.b.m(l.b,b,m)
 b=r}}C.b.m(l.b,b,a)}}
 F.tR.prototype={
-T:function(a){return new S.mV(new F.nO(null),"Flutter Demo",X.RV(null,C.kB,X.Y9()),null)}}
+T:function(a){return new S.mV(new F.nO(null),"Comunism4Ever",X.RV(null,C.kB,X.Y9()),null)}}
 F.nO.prototype={
 aT:function(){return new F.z5(M.VD(null),C.r)}}
 F.z5.prototype={
